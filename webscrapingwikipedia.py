@@ -2,7 +2,6 @@
 import pandas as pd
 import wikipedia as wp
  
- 
 #Website I used to extract the data: https://en.wikipedia.org/wiki/List_of_states_of_Mexico
 #Get the html source
 html = wp.page("List of states of Mexico").html()
